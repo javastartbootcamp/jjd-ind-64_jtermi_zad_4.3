@@ -13,4 +13,8 @@ public class Rectangle {
         this.sideB = sideB;
     }
 
+    double calculatePerimeter() {
+        return ((2 * this.sideA) + (2 * this.sideB));
+    }
+
 }

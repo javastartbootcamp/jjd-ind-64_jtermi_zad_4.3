@@ -12,4 +12,5 @@ public class Rectangle {
         this.sideA = sideA;
         this.sideB = sideB;
     }
+
 }

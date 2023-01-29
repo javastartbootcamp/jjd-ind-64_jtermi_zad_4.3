@@ -14,4 +14,5 @@ public class Triangle {
         this.sideB = b;
         this.sideC = c;
     }
+
 }

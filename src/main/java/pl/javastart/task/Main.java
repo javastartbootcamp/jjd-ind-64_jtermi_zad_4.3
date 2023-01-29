@@ -15,6 +15,5 @@ public class Main {
         System.out.println("Obwód prostokąta wynosi: " + shapeCalculator.calculateRectPerimeter(rectangle));
         System.out.println("Pole koła wynosi: " + shapeCalculator.calculateCircleArea(circle));
         System.out.println("Obwód trójkąta wynosi: " + shapeCalculator.calculateTrianglePerimeter(triangle));
-
     }
 }

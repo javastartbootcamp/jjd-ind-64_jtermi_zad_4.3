@@ -19,5 +19,4 @@ public class ShapeCalculator {
     double calculateRectPerimeter(Rectangle rectangle) {
         return ((2 * rectangle.sideA) + (2 * rectangle.sideB));
     }
-
 }

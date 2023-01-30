@@ -2,12 +2,9 @@ package pl.javastart.task;
 
 public class Triangle {
 
-    double sideA;
-    double sideB;
-    double sideC;
-
-    public Triangle() {
-    }
+    private double sideA;
+    private double sideB;
+    private double sideC;
 
     public Triangle(double a, double b, double c) {
         this.sideA = a;
@@ -15,9 +12,7 @@ public class Triangle {
         this.sideC = c;
     }
 
-    double calculatePerimeter() {
+    public double calculatePerimeter() {
         return (this.sideA + this.sideB + this.sideC);
     }
-
-
 }

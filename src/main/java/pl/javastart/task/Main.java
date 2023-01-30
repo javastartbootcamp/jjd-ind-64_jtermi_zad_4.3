@@ -9,8 +9,6 @@ public class Main {
         Circle circle = new Circle(2);
         Triangle triangle = new Triangle(2, 3, 4);
 
-        ShapeCalculator shapeCalculator = new ShapeCalculator();
-
         double squareArea = square.calculateArea();
         System.out.printf("Pole kwadratu wynosi: %.2f\n", squareArea);
         double rectPerimeter = rectangle.calculatePerimeter();
@@ -20,5 +18,4 @@ public class Main {
         double trianglePerimeter = triangle.calculatePerimeter();
         System.out.printf("Obwód trójkąta wynosi: %.2f\n", trianglePerimeter);
     }
-
 }
